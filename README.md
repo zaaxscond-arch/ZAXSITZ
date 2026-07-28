@@ -66,6 +66,7 @@ git pull
 ./install.sh
 
 
+### COMMAND
 
 | Command	| Description |
 |-----------------------|
