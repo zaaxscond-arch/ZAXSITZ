@@ -39,6 +39,26 @@
 - ✅ Custom aliases
 - ✅ Colorful terminal
 
+### COMMAND
+
+
+| Command	| Description |
+|-----------------------|
+|zax	|Display banner.  |
+|zax -a	|Animated banner|
+|zax -g	|Glitch effect. |
+|zax -m	|Matrix effect. |
+|zax -n	|Neon mode.     |
+|zax -h	|Help menu.     |
+|theme	|Change theme.  |
+|theme list	|List themes|
+|theme dark	|Apply dark theme|
+|theme light|Apply light theme|
+|theme neon	|Apply neon theme|
+|theme matrix	|Apply matrix theme|
+|reset	|Reset to default|
+|help	|Show help|
+
 ---
 
 ## 🚀 Installation
@@ -66,21 +86,4 @@ git pull
 ./install.sh
 
 
-### COMMAND
 
-| Command	| Description |
-|-----------------------|
-|zax	|Display banner.  |
-|zax -a	|Animated banner|
-|zax -g	|Glitch effect. |
-|zax -m	|Matrix effect. |
-|zax -n	|Neon mode.     |
-|zax -h	|Help menu.     |
-|theme	|Change theme.  |
-|theme list	|List themes|
-|theme dark	|Apply dark theme|
-|theme light|Apply light theme|
-|theme neon	|Apply neon theme|
-|theme matrix	|Apply matrix theme|
-|reset	|Reset to default|
-|help	|Show help|
