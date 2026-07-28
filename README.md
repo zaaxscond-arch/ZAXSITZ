@@ -47,3 +47,39 @@
 
 ```bash
 curl -sL https://raw.githubusercontent.com/zaax/ZAXSITZ/main/install.sh | bash
+
+# Clone repository
+git clone https://github.com/zaax/ZAXSITZ.git
+cd ZAXSITZ
+
+# Make install script executable
+chmod +x install.sh
+
+# Run installer
+./install.sh
+
+# Reload Termux
+termux-reload-settings
+
+cd ~/ZAXSITZ
+git pull
+./install.sh
+
+
+
+| Command	| Description |
+|-----------------------|
+|zax	|Display banner.  |
+|zax -a	|Animated banner|
+|zax -g	|Glitch effect. |
+|zax -m	|Matrix effect. |
+|zax -n	|Neon mode.     |
+|zax -h	|Help menu.     |
+|theme	|Change theme.  |
+|theme list	|List themes|
+|theme dark	|Apply dark theme|
+|theme light|Apply light theme|
+|theme neon	|Apply neon theme|
+|theme matrix	|Apply matrix theme|
+|reset	|Reset to default|
+|help	|Show help|
